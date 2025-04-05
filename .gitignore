@@ -1,0 +1,55 @@
+# General
+.DS_Store
+*.log
+*.swp
+*~
+
+# Node.js / TypeScript
+node_modules/
+dist/
+.npm
+*.js.map
+npm-debug.log*
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# AWS CDK
+cdk.out/
+.cdk.staging/
+cdk.context.json
+
+# Pulumi
+.pulumi/
+Pulumi.*.yaml
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+.project
+.classpath
+.settings/

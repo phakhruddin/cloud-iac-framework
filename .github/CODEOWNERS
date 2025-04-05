@@ -1,0 +1,20 @@
+# This is a CODEOWNERS file to define ownership for GitHub Copilot suggestions
+# and code review requirements.
+# See https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner for everything in the repo
+*                   @dbaycoinc
+
+# AWS CDK specific files
+/aws-cdk/           @dbaycoinc
+
+# Pulumi specific files
+/pulumi/            @dbaycoinc
+
+# GitHub Copilot ownership
+# This designates that Copilot suggestions for the following file types
+# should be given special attention
+*.py                @dbaycoinc
+*.ts                @dbaycoinc
+*.js                @dbaycoinc
+*.json              @dbaycoinc

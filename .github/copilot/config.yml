@@ -1,0 +1,24 @@
+# Configuration file for GitHub Copilot settings
+
+# Enable Copilot for Python and TypeScript
+enabled_for_languages:
+  - python
+  - typescript
+  - javascript
+  - yaml
+  - json
+  - bash
+
+# Specify custom paths that should be used for training
+training_paths:
+  - aws-cdk/python
+  - aws-cdk/typescript
+  - pulumi/python
+  - pulumi/typescript
+
+# Specify paths to ignore (Optional)
+ignore_paths:
+  - "**/node_modules/**"
+  - "**/.venv/**"
+  - "**/cdk.out/**"
+  - "**/.pulumi/**"

@@ -1,6 +1,14 @@
+"""An AWS Python Pulumi program"""
+
 import pulumi
-import pulumi.python
 import pulumi_aws as aws
+from pulumi_aws import s3
+
+# Create an AWS resource (S3 Bucket)
+bucket = s3.BucketV2('my-bucket')
+
+# Export the name of the bucket
+pulumi.export('bucket_name', bucket.id)
 
 config = pulumi.Config()
 key_name = config.require("keyName")  # EC2 KeyPair name for SSH access

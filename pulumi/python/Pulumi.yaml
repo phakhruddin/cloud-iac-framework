@@ -1,0 +1,4 @@
+name: bastion
+runtime: python
+config:
+  bastion:keyName: my-keypair-name
